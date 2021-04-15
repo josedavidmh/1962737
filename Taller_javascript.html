@@ -154,29 +154,7 @@
         R.innerHTML="Los ciclos que realizo el for fueron: "+contador;
     }
 
-    function Instruccion_switch (){
-        [n1,n2]=obtenerValores();
-        //Llamado de la función propiedades
-        Propiedades();
-        //Dejamos el mensaje en el div que ahora lo manejamos con la variable R
-        R.innerHTML="Ejemplo con instrucción Switch usando sweetalert";
-        switch(n1){
-          case 1:
-             swal("Mensaje", "n1 tiene un valor de 1");
-             break;
-          case 2:
-             swal("Mensaje", "n1 tiene un valor de 2", "success");
-             break;
-          default:
-            swal({
-                title: "Mensaje",
-                text: "n1 tiene un valor mayor de 2",
-                icon: "info",
-                button: "Salir",
-            });
-            break;
-        }   
-    }
+    
     </script>
     
 </body>
